@@ -263,6 +263,9 @@ html {
               -webkit-transition: all 0.4s;
               transition: all 0.4s;
               cursor: pointer;
+              &:hover{
+                background-color:$bg-green-dark;
+              }
             }
             
           }
@@ -499,7 +502,7 @@ html {
           color: $green-light;
           font-size: 79px;
           cursor: pointer;
-          transition: all 0.4s;
+         
           &:hover{
             transform: scale(1.1);
           }
@@ -579,7 +582,7 @@ html {
           left: 28%;
           z-index: 2;
           border-radius: 15px;
-          .box-info{           
+          .box-info{          
             
             transform: rotate(-45deg);
             width: 151px;

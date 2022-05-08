@@ -233,6 +233,9 @@ html {
             -webkit-transition: all 0.4s;
             transition: all 0.4s;
             cursor: pointer;
+            &:hover{
+              background-color:$bg-green-dark;
+            }
           }
         }
       }
@@ -264,6 +267,7 @@ html {
       color: $while-3;
       text-decoration: none;
       font-size: 0.8rem;
+      
       i {
         line-height: 20px;
         display: block;
